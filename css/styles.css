@@ -32,6 +32,12 @@ body {
   color: #19f6fd;
 }
 
+.btn-main {
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+
 .titulo__principal {
   font-family: "Poppins", sans-serif;
   font-weight: 700;

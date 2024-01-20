@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="../css/styles.css">
   <link rel="icon" type="image/x-icon" href="../imagenes\icons8-luna-48.png" />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/newStyle.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lato:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
   <title>Criptomoon | cursos</title>
 </head>
 
@@ -56,16 +58,16 @@
   </header>
   <!--fin de navbar-->
   <!--cursos criptomoon-->
-  <section class="showcase container mb-5 d-flex flex-column align-items-center justify-content-center">
+  <section class="secciones showcase container d-flex flex-column align-items-center justify-content-center">
     <h1 class="text-white display-1 text-center mb-3 titulo__principal animate-entrada animate-entrada">
       Cursos Cripto<span class="span--color">moon</span>
     </h1>
-    <div class="container p-0 mx-sm-3 animate-abajo col-10">
-      <div class="row g-0 card1 mb-5">
-        <div class="col-12 mx-auto col-lg-6 order-lg-2 text-white showcase-img">
+    <div class="container containerCursos animate-abajo">
+      <div class="card1 cardCursos">
+        <div class="order-lg-2 showcase-img">
           <img class="img-fluid w-100 h-100" src="../imagenes/imagen-bitcoin3.jpg" alt="cursos relacionados a las criptomonedas">
-            </div>
-        <div class="col-10 mx-auto col-lg-6 order-lg-1 my-auto showcase-text">
+        </div>
+        <div class="boxFeaturesCurso order-lg-1 showcase-text">
           <h2 class="text-white">
             Curso de <span class="span--color">CRIPTOMONEDAS</span>
           </h2>
@@ -84,11 +86,11 @@
           </ul>
         </div>
       </div>
-      <div class="row g-0 card1 col-10 mx-auto mb-5">
-        <div class="col-12 mx-auto col-lg-6 order-lg-2 text-white showcase-img">
+      <div class="card1 cardCursos">
+        <div class="order-lg-2 showcase-img">
           <img class="img-fluid w-100 h-100" src="../imagenes/imagen-bitcoin2.jpeg" alt="curso relacionado a los analisis avanzados de forex">
-            </div>
-        <div class="col-10 mx-auto col-lg-6 my-auto showcase-text">
+        </div>
+        <div class="boxFeaturesCurso order-lg-1 showcase-text">
           <h2 class="text-white">
             Curso avanzado de <span class="span--color">FOREX</span>
           </h2>
@@ -106,11 +108,11 @@
           </ul>
         </div>
       </div>
-      <div class="row g-0 card1">
-        <div class="col-12 mx-auto col-lg-6 order-lg-2 text-white showcase-img">
+      <div class="card1 cardCursos">
+        <div class="order-lg-2 showcase-img">
           <img class="img-fluid w-100 h-100" src="../imagenes/imagen-bitcoin6.jpeg" alt="cursos relacionados a los analisis tecnicos de las criptomonedas y el mercado.">
-            </div>
-        <div class="col-10 mx-auto col-lg-6 order-lg-1 my-auto showcase-text">
+        </div>
+        <div class="boxFeaturesCurso order-lg-1 showcase-text">
           <h2 class="text-white">
             Curso de
             <span class="span--color">ANALISIS TECNICO</span> AVANZADO
@@ -133,15 +135,15 @@
   </section>
   <!--fin de cursos criptomoon-->
   <!--precios de los cursos-->
-  <section class="pricing py-5" id="precios">
+  <section class="secciones pricing py-5" id="precios">
     <h2 class="mb-5 text-white text-center animate-entrada">Listas de precios</h2>
     <div class="container animate-abajo">
       <div class="row">
         <!-- Free Tier -->
         <article class="col-10 mx-auto col-lg-4">
-          <div class="card mb-5 mb-lg-0">
+          <div class="cardPreciosCursos">
             <div class="card-body">
-              <h3 class="card-title text-uppercase text-center text-secondary">
+              <h3 class="card-title_precios text-uppercase text-center text-secondary">
                 Free
               </h3>
               <h4 class="card-price text-center text-primary">
@@ -177,10 +179,10 @@
                 </li>
               </ul>
               <!-- Button trigger modal -->
-              <button type="button" class="btn btn-secondary primary" data-bs-toggle="modal"
+              <a type="button" class="btn btn-secondary primary widthBtn" data-bs-toggle="modal"
                 data-bs-target="#exampleModal1">
-                Agregar al carrito de compras<i class="bi bi-cart2"></i>
-              </button>
+                Agregar al carrito<i class="bi bi-cart2"></i>
+            </a>
 
               <!-- Modal -->
               <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1"
@@ -212,9 +214,9 @@
         </article>
         <!-- Plus Tier -->
         <article class="col-10 mx-auto col-lg-4">
-          <div class="card mb-5 mb-lg-0">
+          <div class="cardPreciosCursos">
             <div class="card-body">
-              <h3 class="card-title text-uppercase text-center text-secondary">
+              <h3 class="card-title_precios text-uppercase text-center text-secondary">
                 Plus
               </h3>
               <h4 class="card-price text-center text-primary">
@@ -250,10 +252,10 @@
                 </li>
               </ul>
               <!-- Button trigger modal -->
-              <button type="button" class="btn btn-secondary primary" data-bs-toggle="modal"
+              <a type="button" class="btn btn-secondary primary widthBtn" data-bs-toggle="modal"
                 data-bs-target="#exampleModal2">
-                Agregar al carrito de compras<i class="bi bi-cart2"></i>
-              </button>
+                Agregar al carrito<i class="bi bi-cart2"></i>
+            </a>
 
               <!-- Modal -->
               <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2"
@@ -285,9 +287,9 @@
         </article>
         <!-- Pro Tier -->
         <article class="col-10 mx-auto col-lg-4">
-          <div class="card">
+          <div class="cardPreciosCursos">
             <div class="card-body">
-              <h3 class="card-title text-uppercase text-center text-secondary">
+              <h3 class="card-title_precios text-uppercase text-center text-secondary">
                 Pro
               </h3>
               <h4 class="card-price text-center text-primary">
@@ -323,10 +325,10 @@
                 </li>
               </ul>
               <!-- Button trigger modal -->
-              <button type="button" class="btn btn-secondary primary" data-bs-toggle="modal"
+              <a type="button" class="btn btn-secondary primary widthBtn" data-bs-toggle="modal"
                 data-bs-target="#exampleModal3">
-                Agregar al carrito de compras<i class="bi bi-cart2"></i>
-              </button>
+                Agregar al carrito<i class="bi bi-cart2"></i>
+              </a>
 
               <!-- Modal -->
               <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3"
@@ -361,13 +363,13 @@
   </section>
   <!--fin de precios-->
   <!--testimonios de estudiantes-->
-  <section class="testimonials text-center mb-5">
+  <section class="secciones testimonials text-center">
     <div class="container animate-abajo">
       <h2 class="mb-5 text-white animate-entrada">Testimonios de estudiantes</h2>
       <div class="row">
         <article class="col-lg-4">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="../imagenes/ansonyM.jpg"
+            <img class="img-fluid rounded-circle mb-3 imagenTestigo" src="../imagenes/ansonyM.jpg"
               alt="ansony muñoz, estudiante de criptomoon" />
             <h3 class="text-white">Ansony M.</h3>
             <p class="font-weight-light mb-0 text-white">
@@ -402,7 +404,7 @@
   </section>
   <!--fin de testimonios-->
   <!--guias practicas-->
-  <section class="mb-5">
+  <section class="secciones">
     <div class="container mb-3 animate-abajo">
       <h2 class="display-1 text-center text-white animate-entrada titulo__principal mb-2">
         Guias practicas
@@ -477,7 +479,7 @@
   </section>
   <!--fin de guias practicas-->
   <!--tarjetas de cpntactos-->
-  <section class="contact-section gy-6">
+  <section class="secciones contact-section gy-6">
     <div class="container px-4 px-lg-5 py-5 animate-arriba">
       <div class="row gx-4 gx-lg-5">
         <article class="col-11 col-md-4 mb-3 mb-md-0  mx-auto">
